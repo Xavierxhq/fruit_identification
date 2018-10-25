@@ -244,6 +244,10 @@ def write_feature_map(feature_map_name, label, features):
 def get_sample_std_file(sample_num_each_cls=5, directory='./test_data/', save_dir_path='./base_sample/'):
     # half complete. Usually only use once in your first training.
     save_dir_path += str(sample_num_each_cls)
+
+    if os.path.exists(save_dir_path):
+        return
+
     sample_list, copy_file_name_list, sample_num_dict = [], [], {}
 
     for i in os.listdir(directory):
@@ -595,8 +599,7 @@ def do_get_feature_and_t(base_model, margin, epoch):
 
 if __name__ == '__main__':
     get_sample_std_file(5) # Do this to get 5 sample pictures for every class
-    # get_sample_std_file(10) # Do this to get 10 sample pictures for every class.
-    # acc_dict = {}
+
     model_root = './model/pytorch-ckpt/'
     for model_dir in [model_root + x for x in ['time1', 'time2', 'time3']]:
         for model_path in [model_dir + '/' + x for x in os.listdir(model_dir) if '.tar' in x]:
@@ -612,10 +615,3 @@ if __name__ == '__main__':
 
             with open(model_dir + '/result.txt', 'ab+') as f:
                 f.write(('accuracy: {}\n\n'.format(acc)).encode())
-
-    """
-    the_dict = pickle_read('evaluate_result/all_result/mapping_dict')
-    the_dict_1 = pickle_read('evaluate_result/all_result/mapping_dict')
-    for k in ['23', '41', '45', '48', '44', '52', '46']:
-        print(k, the_dict[k])
-    """

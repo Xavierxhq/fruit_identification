@@ -12,7 +12,7 @@ from torch.backends import cudnn
 from torch.utils.data import DataLoader
 import utils.loss as loss
 
-from datasets.data_manager import Tableware
+from datasets.data_manager import Fruit
 from datasets.data_loader import ImageData
 from models import get_baseline_model
 from evaluator import Evaluator
@@ -91,7 +91,6 @@ def train(model, optimizer, criterion, epoch, print_freq, data_loader):
         feat3 = model(input3)
 
         loss = criterion(feat1, feat2, feat3)
-
         optimizer.zero_grad()
         # backward
         loss.backward()
@@ -101,7 +100,6 @@ def train(model, optimizer, criterion, epoch, print_freq, data_loader):
         losses.update(loss.item())
 
         start = time.time()
-
         if (i + 1) % print_freq == 0:
             print('Epoch: [{}][{}/{}]\t'
                   'Batch Time {:.3f} ({:.3f})\t'
@@ -130,10 +128,10 @@ def trainer(data_pth, a, b, _time=0, layers=50):
     width = 128
 
     # optimization options
-    optim = 'Adam'
     max_epoch = 4
     train_batch = 64
     test_batch = 64
+    optim = 'Adam'
     lr = 0.1
     step_size = 40
     gamma = 0.1
@@ -171,8 +169,8 @@ def trainer(data_pth, a, b, _time=0, layers=50):
 
     pin_memory = True if use_gpu else False
 
-    print('initializing dataset {}'.format('Tableware'))
-    dataset = Tableware(data_pth)
+    print('initializing dataset Fruit')
+    dataset = Fruit(data_pth)
 
     trainloader = DataLoader(
         ImageData(dataset.train, TrainTransform(height, width)),
@@ -267,38 +265,16 @@ def trainer(data_pth, a, b, _time=0, layers=50):
             else:
                 state_dict = model.state_dict()
 
-
             save_checkpoint({
                 'state_dict': state_dict,
                 'epoch': epoch + 1,
             }, is_best=is_best, save_dir=save_dir, filename=save_model_path)
-            # in this place, is_best is always True.
-            # so it will think that the newest model is also the best one.
 
-    # print(
-    #     'Best accuracy {:.1%}, achieved at epoch {}'.format(best_acc, best_epoch))
-    # f.close()
-
-    #         do_get_feature_and_t(os.path.join('model/pytorch-ckpt', '1_' + save_model_path), margin=margin, epoch=epoch+1)
             margin = next_margin
     return save_model_path, inner_dist, outer_dist, max_outer, min_outer, max_iner, min_iner
 
 
 if __name__ == "__main__":
-
-    # for margin in range(1, 500):
-    #     f = open('margin_dist.txt', 'a')
-    #     inner_dist, outer_dist, max_outer, min_outer, max_iner, min_iner = trainer('/home/ubuntu/Program/Tableware/reid_tableware/datas/dishes_dataset/', margin, 0)
-    #     f.write("{},{},{},{},{},{},{}\r\n".format(margin,inner_dist,outer_dist, max_outer, min_outer, max_iner, min_iner))
-    #     print(margin, inner_dist, outer_dist)
-    #     f.close()
-
-    for _i in range(3):
-        trainer('./train_data/', 20, 0, _time=_i+1, layers=18)
+    for _i in range(1):
+        # trainer('./train_data/', 20, 0, _time=_i+1, layers=18)
         trainer('./train_data/', 20, 0, _time=_i+1, layers=50)
-    # _ = don't care.
-
-    # model_path = '1_margin(10)_epoch(1).pth.tar'
-
-
-    # it will cost you lots of time.

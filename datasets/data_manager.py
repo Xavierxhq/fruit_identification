@@ -5,12 +5,12 @@ from os import path as osp
 """Dataset classes"""
 
 
-class Tableware(object):
+class Fruit(object):
 
 
     def __init__(self, root, **kwargs):
         self.dataset_dir = root
-        self.train_dir = self.dataset_dir
+        self.train_dir = root
         # self.train_dir = osp.join(self.dataset_dir, 'train')
         # self.test_dir = osp.join(self.dataset_dir, 'test_std')
 
@@ -22,8 +22,8 @@ class Tableware(object):
         # num_total_pids = num_train_pids + num_test_pids
         # num_total_imgs = num_train_imgs + num_test_imgs
 
-        print("=> Tableware loaded")
-        print("Dataset statistics:")
+        print("  Fruit loaded")
+        print("  Dataset statistics:")
         print("  ------------------------------")
         print("  subset   | # ids | # images")
         print("  ------------------------------")
