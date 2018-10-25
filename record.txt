@@ -1,0 +1,2 @@
+margin:20, epoch:1, acc:0.99419243298433
+margin:10, epoch:1, acc:0.9946113174894072

@@ -1,0 +1,743 @@
+
+model:5_layers101_margin20_epoch5.tar
+
+model:5_layers101_margin20_epoch5.tar
+class:1 , accuracy:0.26087
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.8
+class:5 , accuracy:0.98333
+class:6 , accuracy:0.97
+class:7 , accuracy:0.96
+class:8 , accuracy:1.0
+class:9 , accuracy:0.93
+class:10, accuracy:0.91
+class:11, accuracy:1.0
+class:12, accuracy:0.99
+class:13, accuracy:0.95714
+class:14, accuracy:1.0
+class:15, accuracy:0.9
+class:16, accuracy:0.99
+class:17, accuracy:0.99
+class:18, accuracy:1.0
+class:19, accuracy:0.82
+class:20, accuracy:0.9
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.93
+class:24, accuracy:0.9
+class:25, accuracy:0.97
+class:26, accuracy:0.54
+class:27, accuracy:0.98
+class:28, accuracy:0.98
+class:29, accuracy:0.89
+class:30, accuracy:0.89
+class:31, accuracy:0.95876
+class:32, accuracy:1.0
+class:33, accuracy:0.67
+class:34, accuracy:0.99
+class:35, accuracy:0.3
+class:36, accuracy:1.0
+class:37, accuracy:0.98
+class:38, accuracy:0.98
+class:39, accuracy:0.92
+class:40, accuracy:0.89796
+class:41, accuracy:0.65
+class:42, accuracy:0.83
+class:43, accuracy:0.84444
+class:44, accuracy:0.68
+class:45, accuracy:0.58
+class:46, accuracy:0.5942
+class:47, accuracy:0.08
+class:48, accuracy:0.6
+class:49, accuracy:0.77
+class:50, accuracy:0.9
+class:51, accuracy:0.33
+class:52, accuracy:0.45
+class:53, accuracy:0.82
+class:54, accuracy:0.66
+Accuracy: 0.83051 under 54 classes, 5 samples/class
+
+model:3_layers18_margin20_epoch3.tar
+class:1 , accuracy:0.8913
+class:2 , accuracy:1.0
+class:3 , accuracy:0.99
+class:4 , accuracy:0.92
+class:5 , accuracy:1.0
+class:6 , accuracy:0.99
+class:7 , accuracy:0.99
+class:8 , accuracy:1.0
+class:9 , accuracy:0.95
+class:10, accuracy:0.99
+class:11, accuracy:0.99
+class:12, accuracy:1.0
+class:13, accuracy:0.97143
+class:14, accuracy:1.0
+class:15, accuracy:0.97
+class:16, accuracy:0.98
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.98
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.99
+class:24, accuracy:0.98
+class:25, accuracy:0.99
+class:26, accuracy:0.98
+class:27, accuracy:0.99
+class:28, accuracy:0.96
+class:29, accuracy:0.89
+class:30, accuracy:0.95
+class:31, accuracy:0.90722
+class:32, accuracy:0.99
+class:33, accuracy:0.93
+class:34, accuracy:1.0
+class:35, accuracy:0.44
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.96
+class:39, accuracy:0.96
+class:40, accuracy:0.97959
+class:41, accuracy:0.77
+class:42, accuracy:0.96
+class:43, accuracy:1.0
+class:44, accuracy:0.82
+class:45, accuracy:0.52
+class:46, accuracy:0.85507
+class:47, accuracy:0.76
+class:48, accuracy:0.85
+class:49, accuracy:0.82
+class:50, accuracy:0.92
+class:51, accuracy:0.93
+class:52, accuracy:0.95
+class:53, accuracy:0.93
+class:54, accuracy:0.85
+Accuracy: 0.93297 under 54 classes, 5 samples/class
+
+model:1_margin(20)_epoch(1).pth_hard.tar
+class:1 , accuracy:0.95652
+class:2 , accuracy:1.0
+class:3 , accuracy:0.96
+class:4 , accuracy:0.94
+class:5 , accuracy:0.96667
+class:6 , accuracy:1.0
+class:7 , accuracy:1.0
+class:8 , accuracy:0.99
+class:9 , accuracy:0.99
+class:10, accuracy:0.97
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:1.0
+class:16, accuracy:1.0
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:0.99
+class:20, accuracy:0.95
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.98
+class:24, accuracy:0.95
+class:25, accuracy:1.0
+class:26, accuracy:0.99
+class:27, accuracy:0.98
+class:28, accuracy:1.0
+class:29, accuracy:0.94
+class:30, accuracy:0.98
+class:31, accuracy:0.98969
+class:32, accuracy:1.0
+class:33, accuracy:0.94
+class:34, accuracy:0.99
+class:35, accuracy:0.49
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.95
+class:39, accuracy:0.97
+class:40, accuracy:1.0
+class:41, accuracy:0.48
+class:42, accuracy:0.96
+class:43, accuracy:0.82222
+class:44, accuracy:0.81
+class:45, accuracy:0.75
+class:46, accuracy:0.81159
+class:47, accuracy:0.8
+class:48, accuracy:0.88
+class:49, accuracy:0.96
+class:50, accuracy:0.93
+class:51, accuracy:0.86
+class:52, accuracy:0.9
+class:53, accuracy:0.57
+class:54, accuracy:0.72
+Accuracy: 0.927 under 54 classes, 5 samples/class
+
+model:2_layers101_margin20_epoch2.tar
+class:1 , accuracy:0.78261
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.9
+class:5 , accuracy:0.95
+class:6 , accuracy:0.97
+class:7 , accuracy:0.99
+class:8 , accuracy:0.95
+class:9 , accuracy:0.95
+class:10, accuracy:0.96
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.94
+class:16, accuracy:0.98
+class:17, accuracy:0.99
+class:18, accuracy:1.0
+class:19, accuracy:0.93
+class:20, accuracy:0.93
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.97
+class:24, accuracy:0.96
+class:25, accuracy:0.95
+class:26, accuracy:0.9
+class:27, accuracy:0.98
+class:28, accuracy:0.99
+class:29, accuracy:0.83
+class:30, accuracy:0.86
+class:31, accuracy:0.94845
+class:32, accuracy:1.0
+class:33, accuracy:0.92
+class:34, accuracy:0.96
+class:35, accuracy:0.38
+class:36, accuracy:1.0
+class:37, accuracy:0.99
+class:38, accuracy:0.91
+class:39, accuracy:0.95
+class:40, accuracy:1.0
+class:41, accuracy:0.81
+class:42, accuracy:0.89
+class:43, accuracy:0.92222
+class:44, accuracy:0.62
+class:45, accuracy:0.86
+class:46, accuracy:0.7971
+class:47, accuracy:0.59
+class:48, accuracy:0.74
+class:49, accuracy:0.68
+class:50, accuracy:0.99
+class:51, accuracy:0.74
+class:52, accuracy:0.87
+class:53, accuracy:0.72
+class:54, accuracy:0.64
+Accuracy: 0.89792 under 54 classes, 5 samples/class
+
+model:5_layers18_margin20_epoch5.tar
+class:1 , accuracy:0.93478
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.95
+class:5 , accuracy:1.0
+class:6 , accuracy:1.0
+class:7 , accuracy:1.0
+class:8 , accuracy:0.98
+class:9 , accuracy:0.96
+class:10, accuracy:1.0
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:1.0
+class:16, accuracy:0.99
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.94
+class:21, accuracy:1.0
+class:22, accuracy:0.99
+class:23, accuracy:0.98
+class:24, accuracy:0.97
+class:25, accuracy:0.99
+class:26, accuracy:0.98
+class:27, accuracy:1.0
+class:28, accuracy:0.99
+class:29, accuracy:0.91
+class:30, accuracy:0.93
+class:31, accuracy:0.97938
+class:32, accuracy:1.0
+class:33, accuracy:0.92
+class:34, accuracy:1.0
+class:35, accuracy:0.42
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.96
+class:39, accuracy:0.99
+class:40, accuracy:1.0
+class:41, accuracy:0.6
+class:42, accuracy:0.85
+class:43, accuracy:0.94444
+class:44, accuracy:0.86
+class:45, accuracy:0.86
+class:46, accuracy:0.85507
+class:47, accuracy:0.7
+class:48, accuracy:0.87
+class:49, accuracy:0.81
+class:50, accuracy:0.92
+class:51, accuracy:0.9
+class:52, accuracy:0.9
+class:53, accuracy:0.96
+class:54, accuracy:0.83
+Accuracy: 0.93606 under 54 classes, 5 samples/class
+
+model:1_layers18_margin20_epoch1.tar
+class:1 , accuracy:0.92391
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.95
+class:5 , accuracy:0.96667
+class:6 , accuracy:1.0
+class:7 , accuracy:0.99
+class:8 , accuracy:0.99
+class:9 , accuracy:0.93
+class:10, accuracy:0.98
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.82
+class:16, accuracy:1.0
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:0.99
+class:20, accuracy:0.92
+class:21, accuracy:1.0
+class:22, accuracy:0.99
+class:23, accuracy:0.86
+class:24, accuracy:0.97
+class:25, accuracy:0.99
+class:26, accuracy:0.96
+class:27, accuracy:0.99
+class:28, accuracy:0.99
+class:29, accuracy:0.74
+class:30, accuracy:0.92
+class:31, accuracy:0.95876
+class:32, accuracy:1.0
+class:33, accuracy:0.85
+class:34, accuracy:1.0
+class:35, accuracy:0.27
+class:36, accuracy:1.0
+class:37, accuracy:0.99
+class:38, accuracy:0.95
+class:39, accuracy:0.9
+class:40, accuracy:0.97959
+class:41, accuracy:0.77
+class:42, accuracy:0.92
+class:43, accuracy:0.92222
+class:44, accuracy:0.81
+class:45, accuracy:0.85
+class:46, accuracy:0.88406
+class:47, accuracy:0.88
+class:48, accuracy:0.83
+class:49, accuracy:0.91
+class:50, accuracy:0.9
+class:51, accuracy:0.94
+class:52, accuracy:0.94
+class:53, accuracy:0.98
+class:54, accuracy:0.92
+Accuracy: 0.92874 under 54 classes, 5 samples/class
+
+model:4_layers101_margin20_epoch4.tar
+class:1 , accuracy:0.96739
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.87
+class:5 , accuracy:0.93333
+class:6 , accuracy:1.0
+class:7 , accuracy:0.99
+class:8 , accuracy:0.99
+class:9 , accuracy:0.92
+class:10, accuracy:0.99
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.95
+class:16, accuracy:1.0
+class:17, accuracy:0.99
+class:18, accuracy:1.0
+class:19, accuracy:0.95
+class:20, accuracy:0.91
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.88
+class:24, accuracy:1.0
+class:25, accuracy:1.0
+class:26, accuracy:0.84
+class:27, accuracy:0.99
+class:28, accuracy:0.99
+class:29, accuracy:0.9
+class:30, accuracy:0.9
+class:31, accuracy:0.95876
+class:32, accuracy:1.0
+class:33, accuracy:0.88
+class:34, accuracy:0.99
+class:35, accuracy:0.77
+class:36, accuracy:1.0
+class:37, accuracy:0.95
+class:38, accuracy:0.95
+class:39, accuracy:0.96
+class:40, accuracy:0.97959
+class:41, accuracy:0.6
+class:42, accuracy:0.83
+class:43, accuracy:0.7
+class:44, accuracy:0.71
+class:45, accuracy:0.71
+class:46, accuracy:0.84058
+class:47, accuracy:0.7
+class:48, accuracy:0.85
+class:49, accuracy:0.8
+class:50, accuracy:0.82
+class:51, accuracy:0.74
+class:52, accuracy:0.92
+class:53, accuracy:0.69
+class:54, accuracy:0.79
+Accuracy: 0.90794 under 54 classes, 5 samples/class
+
+model:1_layers101_margin20_epoch1.tar
+class:1 , accuracy:0.88043
+class:2 , accuracy:1.0
+class:3 , accuracy:0.99
+class:4 , accuracy:0.8
+class:5 , accuracy:1.0
+class:6 , accuracy:1.0
+class:7 , accuracy:0.96
+class:8 , accuracy:1.0
+class:9 , accuracy:0.95
+class:10, accuracy:0.98
+class:11, accuracy:0.99
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.88
+class:16, accuracy:0.99
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.92
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.97
+class:24, accuracy:0.94
+class:25, accuracy:0.99
+class:26, accuracy:0.92
+class:27, accuracy:0.97
+class:28, accuracy:1.0
+class:29, accuracy:0.91
+class:30, accuracy:0.97
+class:31, accuracy:0.95876
+class:32, accuracy:1.0
+class:33, accuracy:0.89
+class:34, accuracy:1.0
+class:35, accuracy:0.95
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.95
+class:39, accuracy:0.94
+class:40, accuracy:0.97959
+class:41, accuracy:0.5
+class:42, accuracy:0.67
+class:43, accuracy:0.62222
+class:44, accuracy:0.58
+class:45, accuracy:0.53
+class:46, accuracy:0.81159
+class:47, accuracy:0.66
+class:48, accuracy:0.92
+class:49, accuracy:0.86
+class:50, accuracy:0.87
+class:51, accuracy:0.94
+class:52, accuracy:0.94
+class:53, accuracy:0.81
+class:54, accuracy:0.74
+Accuracy: 0.90851 under 54 classes, 5 samples/class
+
+model:4_layers18_margin20_epoch4.tar
+class:1 , accuracy:0.95652
+class:2 , accuracy:0.99
+class:3 , accuracy:1.0
+class:4 , accuracy:0.95
+class:5 , accuracy:0.93333
+class:6 , accuracy:1.0
+class:7 , accuracy:1.0
+class:8 , accuracy:0.99
+class:9 , accuracy:0.96
+class:10, accuracy:0.99
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.96
+class:16, accuracy:0.99
+class:17, accuracy:0.99
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.98
+class:21, accuracy:1.0
+class:22, accuracy:0.98
+class:23, accuracy:0.92
+class:24, accuracy:1.0
+class:25, accuracy:1.0
+class:26, accuracy:0.76
+class:27, accuracy:0.99
+class:28, accuracy:0.99
+class:29, accuracy:0.91
+class:30, accuracy:0.93
+class:31, accuracy:0.97938
+class:32, accuracy:1.0
+class:33, accuracy:0.88
+class:34, accuracy:1.0
+class:35, accuracy:0.47
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.96
+class:39, accuracy:0.94
+class:40, accuracy:1.0
+class:41, accuracy:0.72
+class:42, accuracy:0.9
+class:43, accuracy:0.98889
+class:44, accuracy:0.88
+class:45, accuracy:0.59
+class:46, accuracy:0.89855
+class:47, accuracy:0.66
+class:48, accuracy:0.76
+class:49, accuracy:0.7
+class:50, accuracy:0.96
+class:51, accuracy:0.93
+class:52, accuracy:0.94
+class:53, accuracy:0.83
+class:54, accuracy:0.78
+Accuracy: 0.92296 under 54 classes, 5 samples/class
+
+model:6_layers101_margin20_epoch6.tar
+class:1 , accuracy:0.92391
+class:2 , accuracy:0.98
+class:3 , accuracy:1.0
+class:4 , accuracy:0.91
+class:5 , accuracy:0.91667
+class:6 , accuracy:0.95
+class:7 , accuracy:0.93
+class:8 , accuracy:0.95
+class:9 , accuracy:0.95
+class:10, accuracy:0.94
+class:11, accuracy:0.99
+class:12, accuracy:0.97
+class:13, accuracy:0.95714
+class:14, accuracy:0.99
+class:15, accuracy:0.88
+class:16, accuracy:0.99
+class:17, accuracy:1.0
+class:18, accuracy:0.82
+class:19, accuracy:0.99
+class:20, accuracy:0.91
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.94
+class:24, accuracy:0.86
+class:25, accuracy:0.97
+class:26, accuracy:0.76
+class:27, accuracy:0.99
+class:28, accuracy:1.0
+class:29, accuracy:0.86
+class:30, accuracy:0.87
+class:31, accuracy:0.8866
+class:32, accuracy:0.97
+class:33, accuracy:0.69
+class:34, accuracy:0.9
+class:35, accuracy:0.5
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.95
+class:39, accuracy:0.83
+class:40, accuracy:0.93878
+class:41, accuracy:0.64
+class:42, accuracy:0.8
+class:43, accuracy:0.67778
+class:44, accuracy:0.69
+class:45, accuracy:0.59
+class:46, accuracy:0.47826
+class:47, accuracy:0.82
+class:48, accuracy:0.7
+class:49, accuracy:0.92
+class:50, accuracy:0.9
+class:51, accuracy:0.75
+class:52, accuracy:0.89
+class:53, accuracy:0.94
+class:54, accuracy:0.51
+Accuracy: 0.87384 under 54 classes, 5 samples/class
+
+model:2_layers18_margin20_epoch2.tar
+class:1 , accuracy:0.91304
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.95
+class:5 , accuracy:0.98333
+class:6 , accuracy:0.99
+class:7 , accuracy:1.0
+class:8 , accuracy:1.0
+class:9 , accuracy:0.99
+class:10, accuracy:1.0
+class:11, accuracy:0.99
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.91
+class:16, accuracy:1.0
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.95
+class:21, accuracy:1.0
+class:22, accuracy:0.99
+class:23, accuracy:0.96
+class:24, accuracy:1.0
+class:25, accuracy:1.0
+class:26, accuracy:0.92
+class:27, accuracy:1.0
+class:28, accuracy:1.0
+class:29, accuracy:0.93
+class:30, accuracy:0.86
+class:31, accuracy:0.97938
+class:32, accuracy:1.0
+class:33, accuracy:0.91
+class:34, accuracy:1.0
+class:35, accuracy:0.07
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.95
+class:39, accuracy:0.96
+class:40, accuracy:1.0
+class:41, accuracy:0.86
+class:42, accuracy:0.84
+class:43, accuracy:0.98889
+class:44, accuracy:0.84
+class:45, accuracy:0.9
+class:46, accuracy:0.89855
+class:47, accuracy:0.71
+class:48, accuracy:0.92
+class:49, accuracy:0.88
+class:50, accuracy:0.92
+class:51, accuracy:0.96
+class:52, accuracy:0.93
+class:53, accuracy:0.95
+class:54, accuracy:0.84
+Accuracy: 0.93625 under 54 classes, 5 samples/class
+
+model:6_layers18_margin20_epoch6.tar
+class:1 , accuracy:0.91304
+class:2 , accuracy:1.0
+class:3 , accuracy:1.0
+class:4 , accuracy:0.94
+class:5 , accuracy:1.0
+class:6 , accuracy:1.0
+class:7 , accuracy:0.98
+class:8 , accuracy:0.98
+class:9 , accuracy:0.9
+class:10, accuracy:1.0
+class:11, accuracy:1.0
+class:12, accuracy:1.0
+class:13, accuracy:1.0
+class:14, accuracy:1.0
+class:15, accuracy:0.98
+class:16, accuracy:0.99
+class:17, accuracy:1.0
+class:18, accuracy:1.0
+class:19, accuracy:1.0
+class:20, accuracy:0.96
+class:21, accuracy:1.0
+class:22, accuracy:0.96
+class:23, accuracy:0.97
+class:24, accuracy:0.97
+class:25, accuracy:0.99
+class:26, accuracy:0.7
+class:27, accuracy:0.99
+class:28, accuracy:0.98
+class:29, accuracy:0.86
+class:30, accuracy:0.98
+class:31, accuracy:0.97938
+class:32, accuracy:1.0
+class:33, accuracy:0.81
+class:34, accuracy:1.0
+class:35, accuracy:0.58
+class:36, accuracy:1.0
+class:37, accuracy:1.0
+class:38, accuracy:0.96
+class:39, accuracy:0.97
+class:40, accuracy:0.97959
+class:41, accuracy:0.42
+class:42, accuracy:0.77
+class:43, accuracy:1.0
+class:44, accuracy:0.79
+class:45, accuracy:0.6
+class:46, accuracy:0.72464
+class:47, accuracy:0.88
+class:48, accuracy:0.78
+class:49, accuracy:0.76
+class:50, accuracy:0.9
+class:51, accuracy:0.87
+class:52, accuracy:0.92
+class:53, accuracy:0.81
+class:54, accuracy:0.88
+Accuracy: 0.91391 under 54 classes, 5 samples/class
+
+model:3_layers101_margin20_epoch3.tar
+class:1 , accuracy:0.96739
+class:2 , accuracy:0.96
+class:3 , accuracy:1.0
+class:4 , accuracy:0.92
+class:5 , accuracy:0.96667
+class:6 , accuracy:1.0
+class:7 , accuracy:0.99
+class:8 , accuracy:0.98
+class:9 , accuracy:0.96
+class:10, accuracy:0.98
+class:11, accuracy:0.99
+class:12, accuracy:0.98
+class:13, accuracy:0.97143
+class:14, accuracy:1.0
+class:15, accuracy:0.99
+class:16, accuracy:1.0
+class:17, accuracy:0.98
+class:18, accuracy:1.0
+class:19, accuracy:0.92
+class:20, accuracy:0.92
+class:21, accuracy:1.0
+class:22, accuracy:1.0
+class:23, accuracy:0.91
+class:24, accuracy:0.98
+class:25, accuracy:0.99
+class:26, accuracy:0.98
+class:27, accuracy:0.99
+class:28, accuracy:0.96
+class:29, accuracy:0.92
+class:30, accuracy:0.8
+class:31, accuracy:0.93814
+class:32, accuracy:1.0
+class:33, accuracy:0.9
+class:34, accuracy:1.0
+class:35, accuracy:0.08
+class:36, accuracy:1.0
+class:37, accuracy:0.99
+class:38, accuracy:0.97
+class:39, accuracy:0.87
+class:40, accuracy:0.91837
+class:41, accuracy:0.86
+class:42, accuracy:0.9
+class:43, accuracy:0.83333
+class:44, accuracy:0.74
+class:45, accuracy:0.56
+class:46, accuracy:0.69565
+class:47, accuracy:0.44
+class:48, accuracy:0.85
+class:49, accuracy:0.71
+class:50, accuracy:0.85
+class:51, accuracy:0.97
+class:52, accuracy:0.83
+class:53, accuracy:0.77
+class:54, accuracy:0.66
+Accuracy: 0.89445 under 54 classes, 5 samples/class

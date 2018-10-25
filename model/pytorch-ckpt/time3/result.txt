@@ -1,0 +1,24 @@
+model:time3_layers50_margin20_epoch4.tar
+accuracy: 0.9254734270006107
+
+model:time3_layers18_margin20_epoch3.tar
+accuracy: 0.9462431276725717
+
+model:time3_layers50_margin20_epoch2.tar
+accuracy: 0.9437996334758704
+
+model:time3_layers18_margin20_epoch2.tar
+accuracy: 0.9425778863775197
+
+model:time3_layers50_margin20_epoch3.tar
+accuracy: 0.9235186316432498
+
+model:time3_layers18_margin20_epoch4.tar
+accuracy: 0.9368356750152718
+
+model:time3_layers50_margin20_epoch1.tar
+accuracy: 0.9446548564447158
+
+model:time3_layers18_margin20_epoch1.tar
+accuracy: 0.9319486866218691
+

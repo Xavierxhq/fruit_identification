@@ -1,0 +1,9 @@
+.idea
+__pycache__
+models/__pycache__
+utils/__pycache__
+datasets/__pycache__
+*.pth
+*.tar
+*.png
+*.pkl
